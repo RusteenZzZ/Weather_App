@@ -1,0 +1,112 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: white
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(62, 115, 139);
+    height: 90px;
+    box-shadow: 0px 5px 10px black;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+nav div{
+    margin: 0px auto;
+}
+
+.button{
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.button:hover{
+    box-shadow: 0px 0px 10px black;
+    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    width: 60px;
+    margin-top: 5px;
+}
+
+.info{
+    /* margin-top: 200px; */
+    /* padding: 20px; */
+    width: 600px;
+    margin: 200px auto;
+    border: 2px solid rgb(119, 119, 119);
+    border-radius: 10px;
+    background-color: rgb(127, 163, 172);
+    box-shadow: 0px 0px 10px black;
+}
+
+.info2{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 10px auto;
+    border: 2px solid rgb(119, 119, 119);
+    border-radius: 10px;
+    background-color: rgb(160, 160, 147);
+    padding: 5px;
+    font-weight: bold;
+}
+
+.illustration{
+    border: 2px solid rgb(119, 119, 119);
+    border-radius: 10px;
+    width: 450px;
+    box-shadow: 0px 0px 10px black;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info3{
+    width: 500px;
+    margin: 10px auto;
+    border: 2px solid rgb(119, 119, 119);
+    border-radius: 10px;
+    background-color: rgb(160, 160, 147);
+    padding: 5px;
+    font-weight: bold;
+}
+
+input{
+    background-color: rgb(200, 200, 200);
+    border: none;
+}
+
+input[type=submit]{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 15px auto;
+}
+
+input[type=submit]:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(75, 72, 53);
+    box-shadow: 0px 5px 10px black;
+}
+
+#secret{
+    display: none;
+}
